@@ -26,7 +26,7 @@ class Service {
         };
       }
 
-      Location.setGoogleApiKey("AIzaSyBRVyAa3f_pF9zMoBQLYg_Q3QHUZTuZV-Q");
+      Location.setGoogleApiKey("");
 
       const location = await Location.getCurrentPositionAsync({
         accuracy: Location.Accuracy.High,
